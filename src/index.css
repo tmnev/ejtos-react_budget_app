@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.alert .currency-select,
+.alert .currency-select option {
+    background-color: #93E499;
+}
+.alert .currency-select option:checked, 
+.alert .currency-select option:hover {
+    background-color: #fff !important;
+}
+
+.plus-btn {
+  background-image: url(../public/plus_btn.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 26px;
+  width: 29px;
+  border: none;
+}
+
+.minus-btn {
+  background-image: url(../public/minus_btn.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 26px;
+  width: 29px;
+  border: none;
+}
